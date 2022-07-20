@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href = "#">
+    <title>Weather App</title>
+    <script src = "./bundle.js" defer></script>
+</head>
+<body>
+    <div class="mainContainer">
+       <div class="infoPanel">
+
+        <form action="#">
+            <input type="text" id="search" placeholder="search" required>
+            <span><button>🔎</button></span>
+        </form>
+        <section>
+            <h2 class = 'region'>No region is registered</h2> <!--add a region change on the fly-->
+            <h3 class = "weather_main"></h3>
+            <div class="weather_description"></div>
+            <h1 class ='temp'></h1>
+            <img src="">
+            <!--see what is awsome in the api.-->
+            <div class = "wind"></div>
+            <div class="humidity"></div>
+           <br>
+        </section>
+        <div class="devDetails" title="dev Info">
+            <a href="https://github.com/CharbelBG">
+                 Charbel Bou Ghazalé 
+                 <img src="../resources/githubImg.png">
+            </a>
+        </div>
+       </div>
+    </div>
+</body>
+</html>
